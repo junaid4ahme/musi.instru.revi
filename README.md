@@ -7,10 +7,10 @@ Services:
   3. hive
 
 Workflow:
-check if the data is available on s3 buckets.
-check the file and extract column information.
-use json validator for verifying datatypes of columns.
-create a hive script and use json serde for data loading.
-query the data to verify.
-cross check table columns and datatypes.
-cross check number of records recieved.
+1. check if the data is available on s3 buckets.
+2. check the file and extract column information.
+3. use json validator for verifying datatypes of columns.
+4. create a hive script and use json serde for data loading.
+5. query the data to verify.
+6. cross check table columns and datatypes.
+7. cross check number of records recieved.
